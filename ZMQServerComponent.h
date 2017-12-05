@@ -13,6 +13,8 @@ namespace controller
 
 class ZMQServerComponent : public sofa::core::behavior::BaseController
 {
+
+Data<double> myparam;
 public:
 SOFA_CLASS(ZMQServerComponent, sofa::core::behavior::BaseController);
 

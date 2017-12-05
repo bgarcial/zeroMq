@@ -19,9 +19,11 @@ namespace controller
 
 zmq::context_t context (1);
 zmq::socket_t socket (context, ZMQ_REP);
-// Data<float> m_myparam;
 
-ZMQServerComponent::ZMQServerComponent(){
+
+ZMQServerComponent::ZMQServerComponent() 
+    : myparam(initData(&myparam, 0.42, "myparam", "ZeroMq version plugin. "))
+{
     
 }
 

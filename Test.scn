@@ -1,4 +1,5 @@
+<?xml version="1.0"?>
 <Node name="root">
     <RequiredPlugin pluginName="ZeroMq"/>
-    <ZMQServerComponent name="test" />
+    <ZMQServerComponent name="test" myparam="0.1" />
 </Node>
