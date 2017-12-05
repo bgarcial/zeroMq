@@ -1,0 +1,4 @@
+<Node name="root">
+    <RequiredPlugin pluginName="ZeroMq"/>
+    <ZMQServerComponent name="test" />
+</Node>
