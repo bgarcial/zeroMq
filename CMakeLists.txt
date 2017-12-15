@@ -3,10 +3,13 @@ project(ZeroMq)
 
 set(HEADER_FILES
     ZMQServerComponent.h
+    PointNet.h
 )
 
 set(SOURCE_FILES
+    initZeroMq.cpp
     ZMQServerComponent.cpp
+    
 )
 
 set(EXTRA_FILES

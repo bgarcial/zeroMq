@@ -22,11 +22,13 @@
 #endif
 */
 
+/*
 namespace sofa
 {
 
 namespace component
 {
+*/
 
 //Here are just several convenient functions to help user to know what contains the plugin
 
@@ -47,7 +49,7 @@ void initExternalModule()
 
 const char* getModuleName()
 {
-    return "Plugin zeroMQ";
+    return "Plugin zeroMQ Server";
 }
 
 const char* getModuleVersion()
@@ -71,9 +73,8 @@ const char* getModuleComponentList()
     return "";
 }
 
-}
+//}
 
-}
+//}
 
 SOFA_LINK_CLASS(ZMQServerComponent)
-
