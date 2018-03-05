@@ -80,9 +80,9 @@ zeromq work with the following  [messaging patterns](http://zguide.zeromq.org/pa
  ```
  wget https://github.com/zeromq/libzmq/releases/download/v4.2.3/zeromq-4.2.3.tar.gz
  
- tar -zxvf zeromq-4.2.2.tar.gz 
+ tar -zxvf zeromq-4.2.3.tar.gz 
  
- cd zeromq-4.2.2/
+ cd zeromq-4.2.3/
  
  sudo ./configure
  
