@@ -75,8 +75,10 @@ zeromq work with the following  [messaging patterns](http://zguide.zeromq.org/pa
   
  + **Setup the zeroMQ package**
  
+ Download the zeroMQ latest release. Packages found here https://github.com/zeromq/libzmq/releases 
+ 
  ```
- wget https://github.com/zeromq/libzmq/releases/download/v4.2.2/zeromq-4.2.2.tar.gz
+ wget https://github.com/zeromq/libzmq/releases/download/v4.2.3/zeromq-4.2.3.tar.gz
  
  tar -zxvf zeromq-4.2.2.tar.gz 
  
